@@ -2,7 +2,7 @@
 // --------------------------------
 // utils.cpp - The most random of the random stuff
 // --------------------------------
-// "©" Nmlgc, 2011
+// "ï¿½" Nmlgc, 2011
 
 #include <bgmlib/platform.h>
 #include <bgmlib/list.h>
@@ -45,8 +45,7 @@ FXString CorrectAppPath(char* CmdLine)
 
 FXString WebPageDesc(const FXString& WebPage)
 {
-	return "Get the latest version of this tool, as well as the source code, at <" + WebPage + ">.\n"
-	"This program was not made by anyone from shrinemaiden.org.\n\n";
+	return "Get the latest version and the source code, at <" + WebPage + ">.\n\n";
 }
 
 void TranslateGameNames(FXText* Stat, ushort Lang)
